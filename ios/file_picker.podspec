@@ -17,5 +17,6 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.dependency 'DKImagePickerController/PhotoGallery'
   s.ios.deployment_target = '8.0'
+  s.resource_bundles = {'file_picker_ios_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
 
